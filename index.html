@@ -5,23 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <title>BlossomUI</title>
   </head>
   <body>
-    <header class="header">
-      <div class="logo_container">
-        <h1 class="logo"><a href="#">LOGO</a></h1>
-      </div>
-
-      <div class="header__nav">
+    <div class="main-container">
+      <div class="navbar">
+        <h5 class="logo">BlossomUI</h5>
+        <!-- <img class="logo" src="images/logo.png" alt="logo of website  BlossomUI" /> -->
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Doc</a></li>
-            <li><a href="#">Github</a></li>
+            <li><a href="http://#">Home</a></li>
+            <li><a href="http://#">Documentation</a></li>
+            <li><a href="http://#">Github</a></li>
           </ul>
         </nav>
+        <a class="ham-burger" onclick="sideBarShow()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <sidebar class="navsidebar">
+          <span> <a href="#">Home</a> </span>
+          <span> <a href="#">Documentation</a> </span>
+          <span> <a href="#">Github</a> </span>
+        </sidebar>
       </div>
-    </header>
+      <div class="body-content">
+        <div class="content">
+          <h1>Blossom UI</h1>
+          <p>
+            The UI Component library that will ease your html css <br />works,
+            get your desired style in one click
+          </p>
+          <a href="#"> <button class="getstarted-btn">Get Started</button></a>
+        </div>
+        <div class="home-image">
+          <img src="assets/account.png" />
+          <img src="assets/calculator.png" />
+          <img src="assets/contacts.png" />
+          <img src="assets/download (1).png" />
+          <img src="assets/cloud-sharing.png" />
+          <img src="assets/email.png" />
+        </div>
+      </div>
+    </div>
+
+    <script src="/index.js"></script>
   </body>
 </html>
