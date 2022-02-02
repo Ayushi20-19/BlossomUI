@@ -1,0 +1,32 @@
+.alert-box {
+  border-radius: 0.3rem;
+  padding: 1rem 3rem 1rem 1rem;
+  font-size: 1rem;
+  margin: 1rem;
+  width: 100%;
+}
+.alert-icon {
+  margin-right: 0.6rem;
+}
+
+.alert-primary {
+  background-color: #4fc9e7;
+  color: #19378a;
+}
+.alert-secondary {
+  background-color: #d5d5d5;
+  color: #585a67;
+}
+
+.alert-success {
+  background-color: #79fa73;
+  color: #015839;
+}
+.alert-danger {
+  background-color: #f54343;
+  color: #ffbec4;
+}
+.alert-warning {
+  background-color: #faf454;
+  color: #ff8604;
+}
