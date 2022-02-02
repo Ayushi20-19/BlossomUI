@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Documentation</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./components/styles.css" />
     <link rel="stylesheet" href="doc.css" />
     <link
       rel="stylesheet"
@@ -17,7 +18,6 @@
   <body>
     <div class="navbar">
       <h5 class="logo">BlossomUI</h5>
-      <!-- <img class="logo" src="images/logo.png" alt="logo of website  BlossomUI" /> -->
       <nav>
         <ul>
           <li><a href="./index.html">Home</a></li>
@@ -34,55 +34,184 @@
         <span> <a href="#">Github</a> </span>
       </sidebar>
     </div>
-    <div class="componentSidebar">
-      <div class="sidebar-main">
-        <h3>Installation Guid</h3>
-        <a href="#installation-content" class="install-guid">Installation</a>
-        <hr />
-        <h3>Components</h3>
-        <a href="">Alert</a>
-        <a href="">Avatar</a>
-        <a href="">Badge</a>
-        <a href="">Button</a>
-        <a href="">Card</a>
-        <a href="">Image</a>
-        <a href="">Input</a>
-        <a href="">Text Utilities</a>
-        <a href="">Lists</a>
-        <a href="">Navigation</a>
-        <a href="">Modal</a>
-        <a href="">Rating </a>
-        <a href="">Toast</a>
-        <a href="">Responsive Grid</a>
-        <a href="">Slider</a>
-      </div>
-    </div>
-    <div class="main-content">
-      <div class="installation-content">
-        <div>
-          <h1>Install Blossom UI</h1>
-          <p>
-            Copy and paste the code in the head tag of your html document. So
-            that you can style your components by just adding class names to
-            your html elements.
-          </p>
+    <div class="bodymain">
+      <aside class="componentSidebar">
+        <div class="sidebar-main">
+          <h5 class="logo-sidebar">BlossomUI</h5>
+          <h3>Installation Guide</h3>
+          <a href="#Installation" class="install-guid">Installation</a>
+          <hr />
+          <h3>Components</h3>
+          <a href="#Avatar">Avatar</a>
+          <a href="#Alert">Alert</a>
+          <a href="">Badge</a>
+          <a href="">Button</a>
+          <a href="">Card</a>
+          <a href="">Image</a>
+          <a href="">Input</a>
+          <a href="">Text Utilities</a>
+          <a href="">Lists</a>
+          <a href="">Navigation</a>
+          <a href="">Modal</a>
+          <a href="">Rating </a>
+          <a href="">Toast</a>
+          <a href="">Responsive Grid</a>
+          <a href="">Slider</a>
+        </div>
+      </aside>
+      <div class="main-content">
+        <div class="installation-content" id="Installation">
+          <div>
+            <h1>Install Blossom UI</h1>
+            <p>
+              Copy and paste the code in the head tag of your html document. So
+              that you can style your components by just adding class names to
+              your html elements.
+            </p>
+          </div>
+
+          <div class="code_link">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520For%2520Version%25201%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252F%2522%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
         </div>
 
-        <div class="code_link">
-          <code>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520For%2520Version%25201%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252F%2522%253E"
-              style="
-                width: 100%;
-                height: 100%;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </code>
+        <!--------------- avatar component-------------------------------->
+
+        <div class="comp-container" id="Avatar">
+          <h1>Avatar</h1>
+          <p class="comp-decription">
+            Avatar can be used to show user's profile picture on profile page,
+            on navigation bar, on user login info.
+          </p>
+          <span class="example">Example of Image Avatar</span>
+          <p class="comp-example">
+            Avatar is available in 4 different sizes. You can use image in
+            Avatar. Copy paste the below code of your desired size avatar.
+          </p>
+          <div>
+            <div class="comp-display-container">
+              <!----- main componentcode start from here ----->
+              <div class="avatar avatar-lg-size">
+                <img
+                  class="img-round"
+                  src="./assets/userProfilePic.jpg"
+                  alt="avatar"
+                />
+              </div>
+              <div class="avatar avatar-md-size">
+                <img
+                  class="img-round"
+                  src="./assets/userProfilePic.jpg"
+                  alt="avatar"
+                />
+              </div>
+              <div class="avatar avatar-sm-size">
+                <img
+                  class="img-round"
+                  src="./assets/userProfilePic.jpg"
+                  alt="avatar"
+                />
+              </div>
+              <div class="avatar avatar-xs-size">
+                <img
+                  class="img-round"
+                  src="./assets/userProfilePic.jpg"
+                  alt="avatar"
+                />
+              </div>
+              <div class="avatar avatar-md-size">
+                <span class="avatar-text img-round">AV</span>
+              </div>
+              <!----- main componentcode ends from here ----->
+            </div>
+          </div>
+          <div class="code_link">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253C%21----Large%2520Size%2520Avatar----%253E%2520%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-lg-size%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522.%252Fassets%252FuserProfilePic.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21----Medium%2520Size%2520Avatar----%253E%2520%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md-size%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522.%252Fassets%252FuserProfilePic.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%250A%2520%253C%21----Small%2520Size%2520Avatar----%253E%2520%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm-size%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522.%252Fassets%252FuserProfilePic.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%250A%2520%253C%21----Extra%2520Small%2520Size%2520Avatar----%253E%2520%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs-size%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522.%252Fassets%252FuserProfilePic.jpg%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A%250A%2520%253C%21----Avatar%2520With%2520Text----%253E%2520%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md-size%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522avatar-text%2520img-round%2522%253EAV%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </div>
+
+        <!--------------- alert component-------------------------------->
+
+        <div class="comp-container" id="Alert">
+          <h1>Alert</h1>
+          <p class="comp-decription">
+            Alert can be used to show alter messages such as warnings, success,
+            danger alerts etc.
+          </p>
+          <span class="example">Example of Alert</span>
+          <p class="comp-example">
+            Alert is available in 5 different categories. Copy paste the below
+            code of any Alert.
+          </p>
+          <div>
+            <div class="comp-display-container">
+              <!----- main componentcode start from here ----->
+              <div class="alert-box alert-primary">
+                A primary alert example with a text link.
+                <a class="link-text">Text Link</a>
+              </div>
+              <div class="alert-box alert-secondary">
+                A secondary alert example.
+              </div>
+              <div class="alert-box alert-success">
+                <span><i class="fas fa-check-circle"></i></span>
+                A success alert example. Successfully add to cart.
+              </div>
+              <div class="alert-box alert-danger">
+                <span><i class="fas fa-exclamation-triangle"></i></span>
+                A danger alert example: Are you sure you want to delete this
+                item permanently?
+              </div>
+              <div class="alert-box alert-warning">
+                <span><i class="fas fa-exclamation-triangle"></i></span>
+                A warning alert example: Your wish list is full! Delete some
+                items to add more.
+              </div>
+              <!----- main componentcode ends from here ----->
+            </div>
+          </div>
+          <div class="code_link">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-primary%2522%253EA%2520primary%2520alert%2520example%2520with%2520a%2520text%2520link.%250A%2520%2520%253Ca%2520class%253D%2522link-text%2522%253EText%2520Link%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-secondary%2522%253EA%2520secondary%2520alert%2520example.%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-success%2522%253E%250A%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520A%2520success%2520alert%2520example.%2520Successfully%2520add%2520to%2520cart.%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-danger%2522%253E%250A%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520A%2520danger%2520alert%2520example%253A%2520Are%2520you%2520sure%2520you%2520want%2520to%2520delete%2520this%2520item%2520permanently%253F%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-warning%2522%253E%250A%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250AA%2520warning%2520alert%2520example%253A%2520Your%2520wish%2520list%2520is%2520full%21%2520delete%2520some%2520items%2520to%2520add%2520more.%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
         </div>
       </div>
     </div>

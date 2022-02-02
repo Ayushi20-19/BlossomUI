@@ -9,14 +9,22 @@
   --black-color: #000000;
   --white-color: #ffffff;
 }
-
+.logo-sidebar {
+  width: 2rem;
+  cursor: pointer;
+  margin: 1rem;
+  font-size: 2.5rem;
+  color: var(--home-secondary-color);
+}
 .componentSidebar {
+  background-color: var(--white-color);
   width: 18rem;
   height: 100%;
   position: fixed;
-  left: 0;
+  z-index: 5;
   overflow-y: auto;
-  z-index: 0;
+  left: 0;
+  top: 0;
 }
 
 .sidebar-main {
@@ -63,9 +71,7 @@ h3 {
 }
 
 .main-content {
-  margin-top: 6rem;
-  margin-left: 20rem;
-  height: 100vh;
+  margin: 1rem 0 0 20rem;
   padding: 3rem 1rem 0 1.5rem;
 }
 .installation-content h1 {
@@ -80,15 +86,35 @@ h3 {
 }
 .code_link {
   box-sizing: border-box;
+  background-color: var(--white-color);
+  height: 16rem;
   width: 100%;
   max-height: 46.625rem;
   padding: 1rem 0;
-  background-color: var(--white-color);
   margin: 2rem 0;
-  overflow: auto;
+  overflow-y: hidden;
+}
+.example {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.comp-decription {
+  font-size: 1.4rem;
+  margin: 0.5rem 0rem 1rem 0;
+}
+.comp-example {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 1rem 0rem 3rem 0;
+}
+.comp-display-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0.1rem 0.1rem 0.3rem var(--secondary-color);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .componentSidebar {
     display: none;
   }

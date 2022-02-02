@@ -1,0 +1,32 @@
+.avatar {
+  border: 1rem solid var(--white-color);
+}
+
+.img-round {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.avatar-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.avatar-lg-size {
+  width: 9rem;
+  height: 9rem;
+}
+.avatar-md-size {
+  width: 5rem;
+  height: 5rem;
+}
+.avatar-sm-size {
+  width: 3rem;
+  height: 3rem;
+}
+.avatar-xs-size {
+  width: 2rem;
+  height: 2rem;
+}
