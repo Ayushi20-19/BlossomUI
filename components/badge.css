@@ -1,0 +1,31 @@
+.badge {
+  position: relative;
+  margin: 2rem;
+}
+
+.badge-icon {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.3rem;
+  width: 1.3rem;
+  font-size: 1rem;
+}
+
+.badge-right {
+  position: absolute;
+  left: 75%;
+  top: -25%;
+}
+.badge-avatar {
+  position: absolute;
+  left: 70%;
+  top: -15%;
+}
+.badge-left {
+  position: absolute;
+  right: 60%;
+  top: -30%;
+}
