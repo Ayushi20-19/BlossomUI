@@ -1,0 +1,36 @@
+.btn {
+  padding: 0.6rem 1.1rem;
+  color: var(--white-color);
+  border-radius: 0.3rem;
+  margin: 1rem;
+  border: 0;
+  font-size: 1.3rem;
+}
+.btn:hover {
+  color: var(--black-color);
+}
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+.primary-outline {
+  border: 0.15rem solid var(--primary-color);
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+.secondary-outline {
+  border: 0.15rem solid var(--secondary-color);
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+.btn-icon {
+  background-color: transparent;
+  border: 0;
+  margin: 1rem 1rem 1rem 2rem;
+}
+.floating-btn {
+  z-index: 9;
+}
