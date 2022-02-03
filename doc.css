@@ -35,16 +35,20 @@
   padding-bottom: 5rem;
 }
 
-.sidebar-main a,
-h3 {
+.sidebar-main a {
   color: var(--black-color);
   margin-bottom: 0.5rem;
   padding: 0.5rem 0.5rem 0.5rem 2rem;
   border-radius: 5rem;
   text-decoration: none;
 }
-.sidebar-main h3 {
+.sidebar-heading {
   font-weight: 600;
+  color: var(--black-color);
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  border-radius: 5rem;
+  text-decoration: none;
 }
 
 .sidebar-main a:hover {
@@ -94,6 +98,7 @@ h3 {
   margin: 2rem 0;
   overflow-y: hidden;
 }
+
 .example {
   font-size: 1.5rem;
   font-weight: 500;
