@@ -1,0 +1,132 @@
+.container-horizontal-card {
+  width: 20rem;
+  height: 12rem;
+  box-shadow: 0.1rem 0.2rem 0.5rem gray;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.img-content-container {
+  display: flex;
+  height: 70%;
+}
+.card-image-container {
+  flex-basis: 35%;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  border-radius: 0 0.5rem 0 0;
+  padding: 0 1rem;
+}
+.card-heading {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+  color: var(--black-color);
+}
+.card-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  align-items: baseline;
+}
+.card-icons span {
+  color: var(--secondary-color);
+}
+.card-icon {
+  text-decoration: none;
+  color: var(--black-color);
+}
+.card-icon:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+/* ----vertical card---- */
+
+.container-vertical-card {
+  width: 20rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.1rem 0.3rem 0.4rem gray;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.img-section {
+  height: 55%;
+}
+.card-subheading {
+  margin-bottom: 0.8rem;
+  margin-top: 0.1rem;
+  color: gray;
+  font-weight: 500;
+}
+.vertical-card-content {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+/*------------ overlay cards----------- */
+.overlay-container {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+.overlay-card-content {
+  margin: 1rem;
+}
+.text-initial {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.text-strike-through {
+  text-decoration: line-through;
+  margin: 0.5rem;
+}
+.primary-text-color {
+  color: var(--primary-color);
+}
+.card-dec {
+  margin: 0rem 0 1rem 0;
+}
+.CTA-container {
+  width: fit-content;
+}
+.overlay-cover {
+  background-color: gray;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  top: 0;
+  display: flex;
+}
+.overlay-text {
+  position: absolute;
+  margin: 1rem;
+  padding: 0.8rem 0.5rem;
+  font-weight: bold;
+  color: var(--black-color);
+  top: 0;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+.overlay-text-badge {
+  position: absolute;
+  margin: 1rem -1rem;
+  padding: 0.3rem;
+  font-weight: bold;
+  color: var(--black-color);
+  top: 0;
+  right: 0;
+  background-color: var(--home-bg-color);
+  border-radius: 0.5rem;
+}

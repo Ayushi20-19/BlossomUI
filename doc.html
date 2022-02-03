@@ -34,19 +34,19 @@
         <span> <a href="#">Github</a> </span>
       </sidebar>
     </div>
-    <div class="bodymain">
+<div class="bodymain">
       <aside class="componentSidebar">
         <div class="sidebar-main">
           <h5 class="logo-sidebar">BlossomUI</h5>
-          <h3>Installation Guide</h3>
+          <h3 class="sidebar-heading" >Installation Guide</h3>
           <a href="#Installation" class="install-guid">Installation</a>
           <hr />
-          <h3>Components</h3>
+          <h3 class="sidebar-heading">Components</h3>
           <a href="#Avatar">Avatar</a>
           <a href="#Alert">Alert</a>
           <a href="#Badge">Badge</a>
-          <a href="#Button">Button</a>
-          <a href="">Card</a>
+          <a href="#Buttons">Buttons</a>
+          <a href="#Cards">Cards</a>
           <a href="">Image</a>
           <a href="">Input</a>
           <a href="">Text Utilities</a>
@@ -59,7 +59,7 @@
           <a href="">Slider</a>
         </div>
       </aside>
-      <div class="main-content">
+  <div class="main-content">
 
 <!--------------- installation-------------------------------->        
         <div class="installation-content" id="Installation">
@@ -284,7 +284,7 @@
 
 
 <!----------------button component-------------------------------->        
-        <div class="comp-container" id="Button">
+        <div class="comp-container" id="Buttons">
           <h1>Button</h1>
           <p class="comp-decription">
                    Button can be used to show alter messages such as warnings, success,
@@ -400,9 +400,192 @@
           </div>
         </div>
 
+<!----------------Cards component starts here-------------------------------->        
+        <div class="comp-container" id="Cards">
+          <h1>Cards</h1>
+          <p class="comp-decription">
+                   Cards can be used to show display products.
+          </p>
+          <span class="example">Example of Horizontal card</span>
+          <p class="comp-example">
+            Copy paste the below code of Horizontal Card and use it.
+          </p>
+          <!---Horizontal Card starts from here-->
+         <div class="comp-display-container">
+           <!----- main component code start from here ----->
+           <div class="container-horizontal-card">
+            <div class="img-content-container">
+              <div class="card-image-container">
+                <img class="card-img" src="https://images.unsplash.com/photo-1642532112568-8d1e2074a593?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60" />         
+              </div>
+              <div class="card-content">
+                <h3 class="card-heading">Content Heading</h3>
+                <span>this is the body of content</span>
+              </div>
+            </div>
+            <div class="card-icons">
+              <a  href="#" class="card-icon"><span>READ</span></a>
+              <a href="#" class="card-icon"><span>BOOKMARK</span></a>
+              <a  href="#" class="card-icon"> <i class="fal fa-heart"></i></a>
+              <a  href="#" class="card-icon"> <i class="fal fa-share-alt"></i></a>
+              <a  href="#" class="card-icon"> <i class="far fa-ellipsis-v"></i></i></a>    
+            </div>
+           </div>
+           <!----- main componentcode ends from here ----->
+         </div>
+          
+          <div class="code_link">
+             <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container-horizontal-card%2522%253E%250A%2520%253Cdiv%2520class%253D%2522img-content-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-image-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1642532112568-8d1e2074a593%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D400%2526q%253D60%2522%2520%252F%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253EContent%2520Heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253Cspan%253Ethis%2520is%2520the%2520body%2520of%2520content%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%253Ca%2520%2520href%253D%2522%2523%2522%2520class%253D%2522card-icon%2522%253E%253Cspan%253EREAD%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-icon%2522%253E%253Cspan%253EBOOKMARK%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%253Ca%2520%2520href%253D%2522%2523%2522%2520class%253D%2522card-icon%2522%253E%2520%253Ci%2520class%253D%2522fal%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%253Ca%2520%2520href%253D%2522%2523%2522%2520class%253D%2522card-icon%2522%253E%2520%253Ci%2520class%253D%2522fal%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%253Ca%2520%2520href%253D%2522%2523%2522%2520class%253D%2522card-icon%2522%253E%2520%253Ci%2520class%253D%2522far%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fi%253E%253C%252Fa%253E%2520%2520%2520%2520%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+             </code>
+          </div>
+         <!---Horizontal Card ends from here-->
 
-            
-      </div>
+          <!---Vertical Card start from here-->
+          <span class="example">Example of Vertical Card</span>
+          <p class="comp-example">
+          Copy paste the below code of Vertical Card and use it.
+          </p>
+          
+         <div class="comp-display-container">
+           <!----- main componentcode start from here ----->
+
+           <!--------------normal card-------------->
+           <div class="container-vertical-card">
+            <div class="img-section">
+                <img class="card-img" src="https://images.unsplash.com/photo-1642437386648-2521ba6f908b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60" />
+            </div>
+            <div class="vertical-card-content">
+              <h2 class="card-heading">Content Heading</h2>
+              <h4 class="card-subheading">Sub Heading</h4>
+              <p>This is the content paragraph. This is the content paragraph.</p>
+            </div>
+           </div>
+
+           <!--------------ecom card-------------->
+           <div class="container-vertical-card">
+            <div class="overlay-container">
+              <div class="img-section">
+                <img class="card-img" src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"/>
+              </div>
+              <div class="overlay-card-content">
+              <h2 class="card-heading">Content Heading</h2>
+              <h4 class="card-subheading">Sub Heading</h4>
+              <p class="card-dec">This is the content paragraph.</p>
+              <p > <span class="text-initial">Rs.999</span> <span class="text-strike-through">Rs.1099</span><span class="primary-text-color">10%</span></span></p>
+              <div class="CTA-container">
+                <button class="btn primary">
+                  <i class="fa fa-shopping-cart"></i> Add to cart
+                </button>
+              </div>
+              </div>  
+          </div>
+
+           </div>
+           <!----- main componentcode ends from here ----->
+        </div>
+
+          <div class="code_link">
+             <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253C%21-----normal%2520vertical%2520card-------%253E%250A%253Cdiv%2520class%253D%2522container-vertical-card%2522%253E%250A%2520%253Cdiv%2520class%253D%2522img-section%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1642437386648-2521ba6f908b%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D400%2526q%253D60%2522%2520%252F%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522vertical-card-content%2522%253E%250A%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EContent%2520Heading%253C%252Fh2%253E%250A%2520%2520%2520%253Ch4%2520class%253D%2522card-subheading%2522%253ESub%2520Heading%253C%252Fh4%253E%250A%2520%2520%2520%253Cp%253EThis%2520is%2520the%2520content%2520paragraph.%2520This%2520is%2520the%2520content%2520paragraph.%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21------------ecom%2520card------------%253E%250A%253Cdiv%2520class%253D%2522container-vertical-card%2522%253E%250A%2520%253Cdiv%2520class%253D%2522overlay-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522img-section%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1485955900006-10f4d324d411%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2R1Y3R8ZW58MHx8MHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D400%2526q%253D60%2522%252F%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-card-content%2522%253E%250A%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EContent%2520Heading%253C%252Fh2%253E%250A%2520%2520%2520%253Ch4%2520class%253D%2522card-subheading%2522%253ESub%2520Heading%253C%252Fh4%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522card-dec%2522%253EThis%2520is%2520the%2520content%2520paragraph.%253C%252Fp%253E%250A%2520%2520%2520%253Cp%2520%253E%2520%253Cspan%2520class%253D%2522text-initial%2522%253ERs.999%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522text-strike-through%2522%253ERs.1099%253C%252Fspan%253E%253Cspan%2520class%253D%2522primary-text-color%2522%253E10%2525%253C%252Fspan%253E%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+             </code>
+          </div>
+           <!---Vertical Card ends from here-->
+
+
+          <!---Text Overlay and badge Cards stars from here-->
+          <span class="example">Example of card with text overlay and badge</span>
+          <p class="comp-example">
+                Copy paste the below code of any Cards and just replace the image `link` with your link.
+          </p>
+
+          <div class="comp-display-container">
+            <!------------------ main componentcode start from here -------------------------->
+
+           <!--------------ecom card with text overlay-------------->
+           <div class="container-vertical-card">
+              <div class="overlay-container">
+                <div class="img-section">
+                  <img class="card-img" src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"/>
+                </div>
+                <div class="overlay-card-content">
+                <h2 class="card-heading">Content Heading</h2>
+                <h4 class="card-subheading">Sub Heading</h4>
+                <p class="card-dec">This is the content paragraph.</p>
+                <p > <span class="text-initial">Rs.999</span> <span class="text-strike-through">Rs.1099</span><span class="primary-text-color">10%</span></span></p>
+                <div class="CTA-container">
+                  <button class="btn primary">
+                    <i class="fa fa-shopping-cart"></i> Add to cart
+                  </button>
+                </div>
+                </div>  
+                <div class="overlay-cover"> 
+                </div>
+                <span class="overlay-text">Out Of Stock</span>
+            </div>
+  
+           </div>
+
+           <!--------------ecom card with badge-------------->
+           <div class="container-vertical-card">
+            <div class="overlay-container">
+              <div class="img-section">
+                <img class="card-img" src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"/>
+              </div>
+              <div class="overlay-card-content">
+              <h2 class="card-heading">Content Heading</h2>
+              <h4 class="card-subheading">Sub Heading</h4>
+              <p class="card-dec">This is the content paragraph.</p>
+              <p > <span class="text-initial">Rs.999</span> <span class="text-strike-through">Rs.1099</span><span class="primary-text-color">10%</span></span></p>
+              <div class="CTA-container">
+                <button class="btn primary ">
+                  <i class="fa fa-shopping-cart"></i> Add to cart
+                </button>
+              </div>
+              </div>  
+              <span class="overlay-text-badge">New Item</span>
+          </div>
+
+           </div>
+          <!---------------- main component code ends from here ---------------------------->
+          </div>
+          
+          <div class="code_link">
+             <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253C%21-----ecom%2520card%2520with%2520text%2520overlay------%253E%250A%253Cdiv%2520class%253D%2522container-vertical-card%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1485955900006-10f4d324d411%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2R1Y3R8ZW58MHx8MHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D400%2526q%253D60%2522%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-card-content%2522%253E%250A%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EContent%2520Heading%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-subheading%2522%253ESub%2520Heading%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-dec%2522%253EThis%2520is%2520the%2520content%2520paragraph.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cp%2520%253E%2520%253Cspan%2520class%253D%2522text-initial%2522%253ERs.999%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522text-strike-through%2522%253ERs.1099%253C%252Fspan%253E%253Cspan%2520class%253D%2522primary-text-color%2522%253E10%2525%253C%252Fspan%253E%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-cover%2522%253E%2520%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522overlay-text%2522%253EOut%2520Of%2520Stock%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%2520%2520%250A%253C%252Fdiv%253E%250A%250A%253C%21----ecom%2520card%2520with%2520badge--------%253E%250A%253Cdiv%2520class%253D%2522container-vertical-card%2522%253E%250A%2520%253Cdiv%2520class%253D%2522overlay-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522img-section%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1485955900006-10f4d324d411%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2R1Y3R8ZW58MHx8MHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D400%2526q%253D60%2522%252F%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-card-content%2522%253E%250A%2520%2520%2520%253Ch2%2520class%253D%2522card-heading%2522%253EContent%2520Heading%253C%252Fh2%253E%250A%2520%2520%2520%253Ch4%2520class%253D%2522card-subheading%2522%253ESub%2520Heading%253C%252Fh4%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522card-dec%2522%253EThis%2520is%2520the%2520content%2520paragraph.%253C%252Fp%253E%250A%2520%2520%2520%253Cp%2520%253E%2520%253Cspan%2520class%253D%2522text-initial%2522%253ERs.999%253C%252Fspan%253E%2520%253Cspan%2520class%253D%2522text-strike-through%2522%253ERs.1099%253C%252Fspan%253E%253Cspan%2520class%253D%2522primary-text-color%2522%253E10%2525%253C%252Fspan%253E%253C%252Fspan%253E%253C%252Fp%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522CTA-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%253Cspan%2520class%253D%2522overlay-text-badge%2522%253ENew%2520Item%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%250A%2520%253C%252Fdiv%253E"
+              style="width:100% ;height: 100%; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+             </code>
+          </div>
+          <!---Text Overlay and badge Cards ends from here-->
+
+
+        </div>
+<!----------------Cards component ends here-------------------------------->  
+
+
+
+  </div>
+           
+</div>
     <script src="/index.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
