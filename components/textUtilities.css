@@ -1,0 +1,10 @@
+.small-text {
+  font-size: 0.6rem;
+}
+.gray-text {
+  color: gray;
+}
+.center-text {
+  justify-content: center;
+  align-items: center;
+}
