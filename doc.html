@@ -17,37 +17,37 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
-    <div class="navbar">
-      <!-- <h5 class="logo">BlossomUI</h5> -->
-      
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./doc.html">Documentation</a></li>
-          <li><a href="http://#">Github</a></li>
-        </ul>
-      </nav>
-      <a class="ham-burger" onclick="sideBarShow()">
-        <i class="fa fa-bars"></i>
-      </a>
-      <sidebar class="navsidebar">
-        <span> <a href="./index.html">Home</a> </span>
-        <span> <a href="./doc.html">Documentation</a> </span>
-        <span> <a href="#">Github</a> </span>
-      </sidebar>
-    </div>
-<div class="bodymain">
-      <aside class="componentSidebar">
-        <div class="sidebar-main">
-          <!-- <h5 class="logo-sidebar">BlossomUI</h5> -->
-          <div class="logo-wrap">
-            <img
-            class="logo-sidebar"
+    
+      <div class="navbar">
+        <!-- <h5 class="logo">BlossomUI</h5> -->
+        <div class="logo-wraper">
+          <img
+            class="logo"
             src="assets/logo.png"
             alt="logo of website  BlossomUI"
           />
-          </div>
-         
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./doc.html">Documentation</a></li>
+            <li><a href="http://#">Github</a></li>
+          </ul>
+        </nav>
+        <a class="ham-burger" onclick="sideBarShow()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <sidebar class="navsidebar">
+          <span> <a href="./index.html">Home</a> </span>
+          <span> <a href="./doc.html">Documentation</a> </span>
+          <span> <a href="#">Github</a> </span>
+        </sidebar>
+      </div>
+  
+<div class="body-container">
+
+    <aside class="componentSidebar">
+        <div class="sidebar-main">
           <h3 class="sidebar-heading" >Installation Guide</h3>
           <a href="#Installation" class="install-guid">Installation</a>
           <hr />
@@ -68,8 +68,8 @@
           <a href="">Responsive Grid</a>
           <a href="">Slider</a>
         </div>
-      </aside>
-  <div class="main-content">
+    </aside>
+    <div class="main-content">
 
 <!--------------- installation starts-------------------------------->       
 
@@ -1049,9 +1049,10 @@
 
 <hr class="doc-hr"/>
 
-  </div>
-           
-</div>
+    </div>
+
+</div>      
+
     <script src="/index.js"></script>
     <script src="javascript/modal.js"></script>
   </body>

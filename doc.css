@@ -16,25 +16,31 @@
   align-items: center;
   justify-content: center;
 }
-.logo-sidebar {
-  width: 100%;
-  cursor: pointer;
-  /* font-size: 2.5rem; */
-  color: var(--home-secondary-color);
-}
-.componentSidebar {
-  background-color: var(--white-color);
-  width: 18rem;
-  height: 100%;
-  position: fixed;
-  z-index: 5;
+
+.main-content {
+  width: 70%;
+  height: auto;
+  background-color: transparent;
   overflow-y: auto;
-  left: 0;
-  top: 0;
+  overflow-x: hidden;
+  margin: 0.5rem 1rem 0 1rem;
+  padding: 0.5rem 2rem;
+}
+.body-container {
+  width: 100%;
+  display: flex;
 }
 
+.componentSidebar {
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  background-color: var(--white-color);
+  width: 20%;
+  height: 98vh;
+}
 .sidebar-main {
-  margin: 1rem;
+  margin: 0 1rem;
   font-size: 1.3rem;
   display: flex;
   flex-direction: column;
@@ -80,10 +86,6 @@
     inset -0.1rem -0.1rem 0.3rem var(--secondary-color);
 }
 
-.main-content {
-  margin: 1rem 0 0 20rem;
-  padding: 3rem 1rem 0 1.5rem;
-}
 .installation-content h1 {
   font-size: 2.5rem;
   margin: 1rem 0;
@@ -142,6 +144,7 @@
     display: none;
   }
   .main-content {
-    margin: 1rem;
+    margin: auto;
+    padding: 0;
   }
 }
