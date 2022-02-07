@@ -14,6 +14,7 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   </head>
   <body>
     <div class="navbar">
@@ -51,8 +52,8 @@
           <a href="#Inputs">Input</a>
           <a href="#Text-Utilities">Text Utilities</a>
           <a href="#Lists">Lists</a>
-          <a href="">Navigation</a>
-          <a href="">Modal</a>
+          <a href="#Navbars">Navigation</a>
+          <a href="#Modals">Modal</a>
           <a href="">Rating </a>
           <a href="">Toast</a>
           <a href="">Responsive Grid</a>
@@ -61,7 +62,8 @@
       </aside>
   <div class="main-content">
 
-<!--------------- installation-------------------------------->        
+<!--------------- installation starts-------------------------------->       
+
         <div class="installation-content" id="Installation">
           <div>
             <h1>Install Blossom UI</h1>
@@ -90,7 +92,11 @@
           </div>
         </div>
 
-<!--------------- avatar component-------------------------------->
+<!--------------- installation ends-------------------------------->    
+
+<hr class="doc-hr"/>
+
+<!--------------- avatar component starts-------------------------------->
 
         <div class="comp-container" id="Avatar">
           <h1>Avatar</h1>
@@ -157,8 +163,11 @@
             </code>
           </div>
         </div>
+<!--------------- avatar component ends-------------------------------->    
 
-<!--------------- alert component-------------------------------->
+<hr class="doc-hr"/>
+
+<!--------------- alert component starts-------------------------------->
 
         <div class="comp-container" id="Alert">
           <h1>Alert</h1>
@@ -215,8 +224,12 @@
             </code>
           </div>
         </div>
+<!--------------- alert component ends-------------------------------->  
 
-<!---------------badge component--------------------------------->
+<hr class="doc-hr"/>
+
+<!---------------badge component statrs here--------------------------------->
+
         <div class="comp-container" id="Badge">
           <h1>Badge</h1>
           <p class="comp-decription">
@@ -282,8 +295,12 @@
           </div>
         </div>
 
+<!----------------badge component ends here-------------------------------->  
 
-<!----------------button component-------------------------------->        
+<hr class="doc-hr"/>
+
+<!----------------button components statrs here-------------------------------->        
+
         <div class="comp-container" id="Buttons">
           <h1>Button</h1>
           <p class="comp-decription">
@@ -297,8 +314,10 @@
           
          <div class="comp-display-container">
            <!----- main componentcode start from here ----->
-           <button class="btn primary">Primary</button>
-           <button class="btn secondary">Secondary</button>
+           <div class="wrapper-comp"><button class="btn primary">Primary</button></div>
+           <div class="wrapper-comp">  <button class="btn secondary">Secondary</button></div>
+           
+         
            <!----- main componentcode ends from here ----->
          </div>
           
@@ -400,7 +419,12 @@
           </div>
         </div>
 
-<!----------------Cards component starts here-------------------------------->        
+<!----------------button component ends here-------------------------------->  
+
+<hr class="doc-hr"/>
+
+<!----------------Cards component starts here-------------------------------->     
+
         <div class="comp-container" id="Cards">
           <h1>Cards</h1>
           <p class="comp-decription">
@@ -571,9 +595,13 @@
 
 
         </div>
+
 <!----------------Cards component ends here-------------------------------->  
-  
+
+<hr class="doc-hr"/>
+
 <!----------------Image component starts here-------------------------------->  
+
         <div class="comp-container" id="Images">
           <h1>Image</h1>
           <p class="comp-decription">
@@ -609,9 +637,13 @@
             </code>
           </div>
         </div>
+
 <!----------------Image component ends here-------------------------------->  
 
+<hr class="doc-hr"/>
+
 <!----------------Inputs component starts here-------------------------------->  
+
 <div class="comp-container" id="Inputs">
   <h1>Inputs</h1>
   <p class="comp-decription">
@@ -645,10 +677,13 @@
     </code>
   </div>
 </div>
+
 <!----------------Inputs component ends here-------------------------------->  
 
+<hr class="doc-hr"/>
 
 <!----------------Text Utilities component starts here---------------------------->  
+
         <div class="comp-container" id="Text-Utilities">
           <h1>Text Utilities</h1>
           <p class="comp-decription">
@@ -718,9 +753,13 @@
             </code>
           </div>
         </div>         
+
 <!----------------Text Utilities component ends here-------------------------------->  
 
+<hr class="doc-hr"/>
+
 <!----------------List component starts here---------------------------->  
+
         <div class="comp-container" id="Lists">
           <h1>Lists</h1>
           <p class="comp-decription">
@@ -839,13 +878,173 @@
             </code>
           </div>
         </div>         
+
 <!----------------List component ends here-------------------------------->  
 
+<hr class="doc-hr"/>
+
+<!----------------Navbar component starts here---------------------------->  
+
+        <div class="comp-container" id="Navbars">
+          <h1>Navbars</h1>
+          <p class="comp-decription">
+            Navbar are used in top of the page.
+          </p>
+
+          <!------- Noraml Navbar --------->
+          <span class="example">Example of Navbar</span>
+          <p class="comp-example">
+            Copy the below code of Navbar and use in your project.
+          </p>
+          
+            <div class="comp-display-container">
+              <!----- main component code starts from here ----->
+              <div class="main-wrapper-comp">
+                <div class="nav-main">
+                  <section class="logo-nav">
+                    <button class="icon-menu"><i class='bx bx-menu'></i></button>
+                    <span class="title">San Francisco, CA</span> </section>
+                  <section class="icons-nav">
+                    <button class="icon-download" ><i class='bx bxs-download'></i></button>
+                    <button class="icon-print"><i class='bx bxs-printer'></i></button>
+                    <button class="icon-bookmark"><i class='bx bxs-bookmark'></i></button>
+                  </section>
+                </div>
+              </div>
+              <!----- main component code ends here ----->
+            </div>
+          
+          <div class="code_link">
+            <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=600&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522nav-main%2522%253E%250A%2520%2520%253Csection%2520class%253D%2522logo-nav%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-menu%2522%253E%253Ci%2520class%253D%27bx%2520bx-menu%27%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522title%2522%253ESan%2520Francisco%252C%2520CA%253C%252Fspan%253E%2520%253C%252Fsection%253E%250A%2520%2520%253Csection%2520class%253D%2522icons-nav%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-download%2522%2520%253E%253Ci%2520class%253D%27bx%2520bxs-download%27%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-print%2522%253E%253Ci%2520class%253D%27bx%2520bxs-printer%27%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-bookmark%2522%253E%253Ci%2520class%253D%27bx%2520bxs-bookmark%27%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fsection%253E%250A%253C%252Fdiv%253E"
+              style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            </code>
+          </div>
+        </div>         
+
+<!----------------Navbar component ends here--------------------------------> 
+
+<hr class="doc-hr"/>
+
+<!----------------Modal component starts here---------------------------->  
+
+        <div class="comp-container" id="Modals">
+          <h1>Modals</h1>
+          <p class="comp-decription">
+            Modal are used in show pop-up cards and alerts.
+          </p>
+
+          <!-------Modal --------->
+          <span class="example">Example of Modal</span>
+          <p class="comp-example">
+            Copy the html and js code of Modal and use in your project.
+          </p>
+          
+          <div class="comp-display-container">
+              <div class="main-wrapper-comp">
+                <div class=" wrapper-comp">
+                  <h3>Alert dialog demo</h3>
+                </div>
+                <div class=" wrapper-comp">
+                  <button class="primary btn" onclick=showAlertModal()>Alert Dialog</button>
+                </div>             
+                <div class=" wrapper-comp">
+                  <h3> Simple dialog demo </h3>
+                </div>
+                <div class="wrapper-comp">
+                  <button class="primary btn" onclick=showSimpleModal()>Simple Dialog</button>
+                </div>  
+              </div>
+              
+              <!----- main component code starts from here ----->
+              <div class="modal" id="alertModal"> 
+                <div class="alert-modal-box">
+                  <div class="alert-modal-heading" >Discard Drafts?</div>
+                  <div class="alert-modal-btn">
+                    <button onclick=closeAlertModal() >Cancel</button>
+                    <button onclick = closeAlertModal() >Discard</button>
+                  </div>
+                </div>
+              </div>
+              <div class="modal" id="simpleModal">    
+                <div class="simple-dialog-box">
+                  <div class="simple-modal-heading">Set BackUp Accounts</div>
+                  <div class="modal-list-items">
+                    <div class="image-circle">img</div>
+                    <div class="user-mail">user123@gmai.com</div>
+                  </div>
+                  <div class="modal-list-items">
+                     <div class="image-circle">img</div>
+                    <div class="user-mail">user123@gmai.com</div>
+                  </div>
+                  <div class="modal-list-items">
+                    <div class="image-circle">img</div>
+                    <div class="user-mail">add account</div>
+                  </div>
+                   <button class="primary btn" onclick=closeSimpleModal() >Cancel</button>
+                </div>
+              </div>
+
+              <!----- main component code ends here ----->       
+
+          </div>
+          
+          <div class="code_link">
+            <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=600&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253C%21--Alert%2520modal--%253E%250A%253Cdiv%2520class%253D%2522modal%2522%2520id%253D%2522alertModal%2522%253E%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert-modal-box%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-modal-heading%2522%2520%253EDiscard%2520Drafts%253F%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-modal-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520onclick%253DcloseAlertModal%28%29%2520%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520onclick%2520%253D%2520closeAlertModal%28%29%2520%253EDiscard%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+              style="width:100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            </code>
+          </div>
+
+          <!-- js code for alert modal-->
+          <div class="code_link">
+            <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=javascript&width=600&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253C%21--alert%2520modal%2520js%2520code--%253E%250Afunction%2520showAlertModal%28%29%2520%257B%250A%2520%2520document.getElementById%28%2522alertModal%2522%29.style.display%2520%253D%2520%2522flex%2522%253B%250A%257D%250Afunction%2520closeAlertModal%28%29%2520%257B%250A%2520%2520document.getElementById%28%2522alertModal%2522%29.style.display%2520%253D%2520%2522none%2522%253B%250A%257D"
+              style="width:100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            </code>
+          </div>
+
+          <div class="code_link">
+            <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=600&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253C%21--Simple%2520modal--%253E%250A%253Cdiv%2520class%253D%2522modal%2522%2520id%253D%2522simpleModal%2522%253E%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522simple-dialog-box%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-modal-heading%2522%253ESet%2520BackUp%2520Accounts%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-list-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-circle%2522%253Eimg%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-mail%2522%253Euser123%2540gmai.com%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-list-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-circle%2522%253Eimg%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-mail%2522%253Euser123%2540gmai.com%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-list-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-circle%2522%253Eimg%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-mail%2522%253Eadd%2520account%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary%2520btn%2522%2520onclick%253DcloseSimpleModal%28%29%2520%253ECancel%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            </code>
+          </div>
+
+          <!-- js simple alert code -->
+          <div class="code_link">
+            <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=javascript&width=600&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253C%21--simple%2520modal%2520js%2520code--%253E%250Afunction%2520showSimpleModal%28%29%2520%257B%250A%2520%2520document.getElementById%28%2522simpleModal%2522%29.style.display%2520%253D%2520%2522flex%2522%253B%250A%257D%250Afunction%2520closeSimpleModal%28%29%2520%257B%250A%2520%2520document.getElementById%28%2522simpleModal%2522%29.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%250A"
+              style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            </code>
+          </div>
+
+        </div>         
+
+<!----------------Modal component ends here-------------------------------->  
+
+<hr class="doc-hr"/>
 
   </div>
            
 </div>
     <script src="/index.js"></script>
+    <script src="javascript/modal.js"></script>
   </body>
 </html>
 

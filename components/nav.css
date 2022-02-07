@@ -1,0 +1,24 @@
+.nav-main {
+  background-color: var(--primary-color);
+  display: flex;
+  padding: 0.4rem;
+  color: var(--white-color);
+  width: 100%;
+}
+
+.icons-nav {
+  margin-left: auto;
+}
+button {
+  background-color: transparent;
+  border: 0px;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+button:hover {
+  background-color: var(--secondary-color);
+}
+button i {
+  color: var(--white-color);
+  font-size: 1rem;
+}
