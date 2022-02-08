@@ -12,7 +12,6 @@
 
 .main-container {
   width: 100%;
-  padding: 0 5%;
   box-sizing: border-box;
   position: relative;
 }
@@ -108,8 +107,10 @@ nav ul li a:hover {
 
 .body-content {
   display: flex;
-  margin-top: 8%;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
+  margin-top: 4rem;
 }
 
 .content {
@@ -186,6 +187,7 @@ nav ul li a:hover {
   }
   .ham-burger {
     display: block;
+    padding: 1rem;
   }
   .navbar nav {
     display: none;
@@ -194,11 +196,14 @@ nav ul li a:hover {
     margin: 4rem 1rem 2rem;
     width: 90%;
   }
-  .logo {
-    align-self: start;
-    margin-left: 0.1rem;
-  }
   .content {
     margin: 5%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .main-container {
+    width: 60%;
+    margin: auto;
   }
 }
