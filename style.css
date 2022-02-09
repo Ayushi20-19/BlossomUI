@@ -12,30 +12,35 @@
 
 .main-container {
   width: 100%;
-  padding: 0 5%;
   box-sizing: border-box;
   position: relative;
 }
 
 .navbar {
+  height: 6rem;
   width: 100%;
-  height: 15vh;
-  display: flex;
-  align-items: center;
-  z-index: 2;
+  background-color: var(--white-color);
   top: 0;
   left: 0;
-  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
 }
 
 .logo {
-  width: 2rem;
+  width: 100%;
   cursor: pointer;
-  margin-left: 4rem;
   font-size: 2.5rem;
   color: var(--home-secondary-color);
 }
-
+.logo-wraper {
+  width: 15rem;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 nav {
   margin-left: auto;
 }
@@ -102,8 +107,10 @@ nav ul li a:hover {
 
 .body-content {
   display: flex;
-  margin-top: 8%;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
+  margin-top: 4rem;
 }
 
 .content {
@@ -180,6 +187,7 @@ nav ul li a:hover {
   }
   .ham-burger {
     display: block;
+    padding: 1rem;
   }
   .navbar nav {
     display: none;
@@ -188,11 +196,14 @@ nav ul li a:hover {
     margin: 4rem 1rem 2rem;
     width: 90%;
   }
-  .logo {
-    align-self: start;
-    margin-left: 0.1rem;
-  }
   .content {
     margin: 5%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .main-container {
+    width: 60%;
+    margin: auto;
   }
 }
