@@ -1,0 +1,25 @@
+.stars {
+  width: 20rem;
+  display: inline-block;
+}
+
+input.star {
+  display: none;
+}
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+  transition: all 0.2s;
+}
+input.star:checked ~ label.star:before {
+  content: "\f005";
+  color: #fd4;
+  transition: all 0.25s;
+}
+
+label.star:before {
+  content: "\f006";
+  font-family: FontAwesome;
+}

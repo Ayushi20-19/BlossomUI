@@ -9,6 +9,8 @@
 @import url("list.css");
 @import url("nav.css");
 @import url("modal.css");
+@import url("rating.css");
+@import url("toast.css");
 
 :root {
   --home-bg-color: #99dfff;
