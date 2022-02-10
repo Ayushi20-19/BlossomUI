@@ -44,7 +44,7 @@
   font-size: 1.3rem;
   display: flex;
   flex-direction: column;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
 }
 
 .sidebar-main a {
@@ -147,5 +147,6 @@
   .main-content {
     margin: auto;
     padding: 0;
+    width: 90%;
   }
 }
