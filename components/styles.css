@@ -13,12 +13,19 @@
 @import url("toast.css");
 @import url("grid.css");
 @import url("slider.css");
+@import url("utilities.css");
 
 :root {
   --home-bg-color: #99dfff;
   --home-primary-color: #43c4ff;
   --home-secondary-color: #0095da;
+  --primary-color: #5acbff;
+  --secondary-color: #0087c6;
   --black-color: #000000;
   --white-color: #ffffff;
   --gray-color: gray;
+  --success: #94ff5f;
+  --warning: #fff45f;
+  --info: #5fffec;
+  --danger: #ff5f5f;
 }
