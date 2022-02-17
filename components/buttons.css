@@ -3,7 +3,6 @@
   color: var(--white-color);
   border-radius: 0.3rem;
   border: 0;
-  font-size: 1.3rem;
 }
 .btn:hover {
   color: var(--black-color);
