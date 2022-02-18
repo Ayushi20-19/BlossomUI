@@ -20,7 +20,6 @@
   <body>
   <div class="main-container">
       <div class="navbar">
-        <!-- <h5 class="logo">BlossomUI</h5> -->
         <div class="logo-wraper">
           <img
             class="logo"
@@ -35,10 +34,10 @@
             <li><a href="http://#">Github</a></li>
           </ul>
         </nav>
-        <a class="ham-burger" onclick="sideBarShow()">
+        <a class="ham-burger" onclick="docsideBarShow()">
           <i class="fa fa-bars"></i>
         </a>
-        <sidebar class="navsidebar">
+        <sidebar class="docnavsidebar">
           <span> <a href="./index.html">Home</a> </span>
           <span> <a href="./doc.html">Documentation</a> </span>
           <span> <a href="#">Github</a> </span>
@@ -965,12 +964,12 @@
               <div class="main-wrapper-comp">
                 <div class="nav-main">
                   <section class="logo-nav">
-                    <button class="icon-menu"><i class='bx bx-menu'></i></button>
+                    <button class=" button icon-menu"><i class='bx bx-menu'></i></button>
                     <span class="title">San Francisco, CA</span> </section>
                   <section class="icons-nav">
-                    <button class="icon-download" ><i class='bx bxs-download'></i></button>
-                    <button class="icon-print"><i class='bx bxs-printer'></i></button>
-                    <button class="icon-bookmark"><i class='bx bxs-bookmark'></i></button>
+                    <button class="button icon-download" ><i class='bx bxs-download'></i></button>
+                    <button class="button icon-print"><i class='bx bxs-printer'></i></button>
+                    <button class="button icon-bookmark"><i class='bx bxs-bookmark'></i></button>
                   </section>
                 </div>
               </div>
@@ -986,8 +985,67 @@
             </iframe>
             </code>
           </div>
-        </div>         
 
+          <!-------Responsive Transparent Navbar --------->
+          <span class="example">Example of Responsive Transparent Navbar</span>
+          <p class="comp-example">
+            Copy the below html and js code of Responsive Navbar with hamburger and use in your project.
+          </p>
+          
+            <div class="comp-display-container">
+              <!----- main component code starts from here ----->
+              <div class="main-wrapper-comp">
+                <div class="navbar">
+                  <div class="logo-wraper">
+                    <img
+                      class="logo"
+                      src="assets/logo.png"
+                      alt="logo of website BlossomUI"
+                    />
+                  </div>
+                  <nav>
+                    <ul>
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Github</a></li>
+                    </ul>
+                  </nav>
+                  <a class="ham-burger" onclick="sideBarShow()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                  <sidebar class="navsidebar">
+                    <span> <a href="./index.html">Home</a> </span>
+                    <span> <a href="#">About</a> </span>
+                    <span> <a href="#">Github</a> </span>
+                  </sidebar>
+                </div>
+              </div>
+              <!----- main component code ends here ----->
+            </div>
+          
+          <div class="code_link">
+            <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522logo-wraper%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522logo%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522assets%252Flogo.png%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522logo%2520of%2520website%2520BlossomUI%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522.%252Findex.html%2522%253EHome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253EAbout%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253EGithub%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fnav%253E%250A%2520%2520%253Ca%2520class%253D%2522ham-burger%2522%2520onclick%253D%2522sideBarShow%28%29%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Csidebar%2520class%253D%2522navsidebar%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%2520%253Ca%2520href%253D%2522.%252Findex.html%2522%253EHome%253C%252Fa%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%253E%2520%253Ca%2520href%253D%2522%2523%2522%253EAbout%253C%252Fa%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%253E%2520%253Ca%2520href%253D%2522%2523%2522%253EGithub%253C%252Fa%253E%2520%253C%252Fspan%253E%250A%2520%2520%253C%252Fsidebar%253E%250A%253C%252Fdiv%253E"
+              style="width:100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            </code>
+          </div>
+        
+        <!-- js code link-->
+          <div class="code_link">
+            <code>
+              <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=javascript&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%252F%252Fjs%2520code%250Aconst%2520sideBarShow%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520document.querySelector%28%2522.navsidebar%2522%29.classList.toggle%28%2522active%2522%29%253B%250A%257D%253B%250A"
+              style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            
+          </code>
+          </div>
+      </div>
+      
 <!----------------Navbar component ends here--------------------------------> 
 
 <hr class="doc-hr"/>
@@ -1331,6 +1389,7 @@
   <span>End of the page ©blossom-ui 2022 </span>
      
 </div>
+
     <script src="/index.js"></script>
     <script src="javascript/modal.js"></script>
     <script src="javascript/toast.js"></script>
