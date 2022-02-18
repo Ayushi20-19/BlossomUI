@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Spectral&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,21 @@
   --home-secondary-color: #0095da;
   --black-color: #000000;
   --white-color: #ffffff;
+  --font-heading: "Spectral", serif;
+  --font-content: "Barlow", sans-serif;
+}
+
+body {
+  font-family: var(--font-content);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  font-family: var(--font-heading);
 }
 
 .main-container {
@@ -64,7 +80,7 @@ nav ul li a:hover {
   color: var(--home-secondary-color);
 }
 
-.navsidebar {
+.docnavsidebar {
   width: 60%;
   height: 100vh;
   top: 0;
@@ -79,21 +95,21 @@ nav ul li a:hover {
   background-color: var(--home-primary-color);
 }
 
-.navsidebar.active {
+.docnavsidebar.active {
   left: 0;
 }
 
-.navsidebar span {
+.docnavsidebar span {
   margin: 1rem 0;
 }
 
-.navsidebar span a {
+.docnavsidebar span a {
   text-decoration: none;
   color: var(--white-color);
   font-size: 1.3rem;
 }
 
-.navsidebar span a:hover {
+.docnavsidebar span a:hover {
   color: var(--home-bg-color);
 }
 
@@ -201,9 +217,13 @@ nav ul li a:hover {
   }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1700px) {
   .main-container {
-    width: 60%;
+    width: 70%;
     margin: auto;
+  }
+  .body-content {
+    margin: auto;
+    height: 80vh;
   }
 }
