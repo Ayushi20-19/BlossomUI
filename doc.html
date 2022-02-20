@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png" />
     <title>Documentation</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./components/styles.css" />
     <link rel="stylesheet" href="doc.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -31,7 +32,7 @@
           <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./doc.html">Documentation</a></li>
-            <li><a href="http://#">Github</a></li>
+            <li><a href="https://github.com/Ayushi20-19/BlossomUI">Github</a></li>
           </ul>
         </nav>
         <a class="ham-burger" onclick="docsideBarShow()">
@@ -40,7 +41,7 @@
         <sidebar class="docnavsidebar">
           <span> <a href="./index.html">Home</a> </span>
           <span> <a href="./doc.html">Documentation</a> </span>
-          <span> <a href="#">Github</a> </span>
+          <span> <a href="https://github.com/Ayushi20-19/BlossomUI">Github</a> </span>
         </sidebar>
       </div>
   
@@ -50,6 +51,7 @@
         <div class="sidebar-main">
           <h3 class="sidebar-heading" >Installation Guide</h3>
           <a href="#Installation" class="install-guid">Installation</a>
+          <a href="#Utilities" class="install-guid">Utilities</a>
           <hr />
           <h3 class="sidebar-heading">Components</h3>
           <a href="#Avatar">Avatar</a>
@@ -73,7 +75,8 @@
 
 <!--------------- installation starts-------------------------------->       
 
-        <div class="installation-content" id="Installation">
+        <section id="Installation">
+          <div class="installation-content" >
           <div>
             <h1>Install Blossom UI</h1>
             <p>
@@ -93,14 +96,28 @@
             </code>
           </div>
         </div>
-
+      </section>
 <!--------------- installation ends-------------------------------->    
 
+<!--------------- utilities starts-------------------------------->       
+
+        <section id="Utilities">
+          <div class="utilities-content" >
+            <h1>Utility Classes</h1>
+            <p class="comp-decription">
+              Use these utilities class for making your work easy there are 100+
+              classes
+            </p>
+            <a href="https://blossom-ui.netlify.app/components/utilities.css" target="_blank"><button class="getstarted-btn margin-top-1" >Check Utility Classes</button></a>
+          </div>
+      </section>
+<!--------------- utilities ends-------------------------------->    
 <hr class="doc-hr"/>
 
 <!--------------- avatar component starts-------------------------------->
 
-        <div class="comp-container" id="Avatar">
+        <section id="Avatar">
+        <div class="comp-container" >
           <h1>Avatar</h1>
           <p class="comp-decription">
             Avatar can be used to show user's profile picture on profile page,
@@ -165,13 +182,15 @@
             </code>
           </div>
         </div>
+       </section>
 <!--------------- avatar component ends-------------------------------->    
 
 <hr class="doc-hr"/>
 
 <!--------------- alert component starts-------------------------------->
 
-        <div class="comp-container" id="Alert">
+       <section id="Alert">
+       <div class="comp-container" >
           <h1>Alert</h1>
           <p class="comp-decription">
             Alert can be used to show alter messages such as warnings, success,
@@ -225,14 +244,16 @@
               </iframe>
             </code>
           </div>
-        </div>
+       </div>
+      </section> 
 <!--------------- alert component ends-------------------------------->  
 
 <hr class="doc-hr"/>
 
 <!---------------badge component statrs here--------------------------------->
 
-        <div class="comp-container" id="Badge">
+        <section id="Badge">
+          <div class="comp-container" >
           <h1>Badge</h1>
           <p class="comp-decription">
             Badge can be used to show notification, in icon user-profile, no. of
@@ -301,6 +322,7 @@
             </code>
           </div>
         </div>
+      </section> 
 
 <!----------------badge component ends here-------------------------------->  
 
@@ -308,7 +330,8 @@
 
 <!----------------button components statrs here-------------------------------->        
 
-        <div class="comp-container" id="Buttons">
+        <section id="Buttons">
+            <div class="comp-container" >
           <h1>Button</h1>
           <p class="comp-decription">
                    Button can be used to show onclick functionality.
@@ -444,6 +467,7 @@
              </code>
           </div>
         </div>
+       </section> 
 
 <!----------------button component ends here-------------------------------->  
 
@@ -451,7 +475,8 @@
 
 <!----------------Cards component starts here-------------------------------->     
 
-        <div class="comp-container" id="Cards">
+        <section id="Cards">
+          <div class="comp-container" >
           <h1>Cards</h1>
           <p class="comp-decription">
                    Cards can be used to show display products.
@@ -528,7 +553,7 @@
               <p class="card-dec">This is the content paragraph.</p>
               <p > <span class="text-initial">Rs.999</span> <span class="text-strike-through">Rs.1099</span><span class="primary-text-color">10%</span></span></p>
               <div class="CTA-container">
-                <button class="btn primary">
+                <button class="btn primary margin-top-1">
                   <i class="fa fa-shopping-cart"></i> Add to cart
                 </button>
               </div>
@@ -572,7 +597,7 @@
                 <p class="card-dec">This is the content paragraph.</p>
                 <p > <span class="text-initial">Rs.999</span> <span class="text-strike-through">Rs.1099</span><span class="primary-text-color">10%</span></span></p>
                 <div class="CTA-container">
-                  <button class="btn primary">
+                  <button class="btn primary margin-top-1">
                     <i class="fa fa-shopping-cart"></i> Add to cart
                   </button>
                 </div>
@@ -596,7 +621,7 @@
               <p class="card-dec">This is the content paragraph.</p>
               <p > <span class="text-initial">Rs.999</span> <span class="text-strike-through">Rs.1099</span><span class="primary-text-color">10%</span></span></p>
               <div class="CTA-container">
-                <button class="btn primary ">
+                <button class="btn primary margin-top-1">
                   <i class="fa fa-shopping-cart"></i> Add to cart
                 </button>
               </div>
@@ -657,14 +682,15 @@
              </code>
           </div>
         </div>
-
+      </section> 
 <!----------------Cards component ends here-------------------------------->  
 
 <hr class="doc-hr"/>
 
 <!----------------Image component starts here-------------------------------->  
 
-        <div class="comp-container" id="Images">
+        <section id="Images">
+          <div class="comp-container" >
           <h1>Image</h1>
           <p class="comp-decription">
             Images can be responsive to fit the parent's width, and also can be customised to be round shaped.
@@ -699,14 +725,15 @@
             </code>
           </div>
         </div>
-
+      </section> 
 <!----------------Image component ends here-------------------------------->  
 
 <hr class="doc-hr"/>
 
 <!----------------Inputs component starts here-------------------------------->  
 
-<div class="comp-container" id="Inputs">
+<section id="Inputs">
+  <div class="comp-container" >
   <h1>Inputs</h1>
   <p class="comp-decription">
     Inputs can be multiple ways text only input, number, password inputs.
@@ -739,6 +766,7 @@
     </code>
   </div>
 </div>
+</section> 
 
 <!----------------Inputs component ends here-------------------------------->  
 
@@ -746,7 +774,8 @@
 
 <!----------------Text Utilities component starts here---------------------------->  
 
-        <div class="comp-container" id="Text-Utilities">
+        <section id="Text-Utilities">
+          <div class="comp-container" >
           <h1>Text Utilities</h1>
           <p class="comp-decription">
             There are six type of heading starting from h1 to h6
@@ -815,14 +844,15 @@
             </code>
           </div>
         </div>         
-
+      </section> 
 <!----------------Text Utilities component ends here-------------------------------->  
 
 <hr class="doc-hr"/>
 
 <!----------------List component starts here---------------------------->  
 
-        <div class="comp-container" id="Lists">
+         <section id="Lists">
+           <div class="comp-container" >
           <h1>Lists</h1>
           <p class="comp-decription">
             There are diffrent types of list, orderd, unordered, non-bullets.
@@ -940,14 +970,15 @@
             </code>
           </div>
         </div>         
-
+      </section>
 <!----------------List component ends here-------------------------------->  
 
 <hr class="doc-hr"/>
 
 <!----------------Navbar component starts here---------------------------->  
 
-        <div class="comp-container" id="Navbars">
+       <section id="Navbars">
+         <div class="comp-container" >
           <h1>Navbars</h1>
           <p class="comp-decription">
             Navbar are used in top of the page.
@@ -1045,14 +1076,15 @@
           </code>
           </div>
       </div>
-      
+    </section>
 <!----------------Navbar component ends here--------------------------------> 
 
 <hr class="doc-hr"/>
 
 <!----------------Modal component starts here---------------------------->  
 
-        <div class="comp-container" id="Modals">
+        <section id="Modals">
+           <div class="comp-container" >
           <h1>Modals</h1>
           <p class="comp-decription">
             Modal are used in show pop-up cards and alerts.
@@ -1156,14 +1188,15 @@
           </div>
 
         </div>         
-
+      </section>
 <!----------------Modal component ends here-------------------------------->  
 
 <hr class="doc-hr"/>
 
 <!----------------Rating component starts here---------------------------->  
 
-        <div class="comp-container" id="Rating">
+         <section id="Rating">
+           <div class="comp-container" >
           <h1>Rating</h1>
           <p class="comp-decription">
             Rating are used in giving rating to any product or feeback.
@@ -1208,13 +1241,15 @@
           </div>
 
         </div>
+      </section>
 <!----------------Rating component ends here-------------------------------->  
    
 <hr class="doc-hr"/>
 
 <!----------------Toast component starts here---------------------------->  
 
-        <div class="comp-container" id="Toast">
+         <section id="Toast">
+           <div class="comp-container" >
           <h1>Toast</h1>
           <p class="comp-decription">
             Toast are used in giving popup messages like error succes.
@@ -1276,11 +1311,13 @@
           </div>
 
         </div>
+      </section>
 <!----------------Toast component ends here--------------------------------> 
 
 <!----------------Grid component starts here---------------------------->  
 
-        <div class="comp-container" id="Grids">
+         <section id="Grids">
+           <div class="comp-container" >
           <h1>Grid</h1>
           <p class="comp-decription">
             Grid are used in giving Grid to any product or feeback.
@@ -1344,13 +1381,15 @@
           </div>
 
         </div>
+      </section>
 <!----------------Grid component ends here-------------------------------->  
    
 <hr class="doc-hr"/>
 
 <!----------------Slider component starts here---------------------------->  
 
-        <div class="comp-container" id="Slider">
+         <section id="Slider">
+           <div class="comp-container" >
           <h1>Slider</h1>
           <p class="comp-decription">
             Slider are used to get range inputs.
@@ -1382,7 +1421,8 @@
             </iframe>
             </code>
           </div>    
-        </div>   
+        </div>  
+      </section> 
 <!----------------Slider component ends here--------------------------------> 
 
 <hr class="doc-hr"/>
