@@ -5,6 +5,10 @@ Component Library demo (https://blossom-ui.netlify.app/)
 The UI Component library that will ease your html css
 works, get your desired style in one click
 
+
+https://user-images.githubusercontent.com/50084909/154867486-cacba8c0-9b4e-4818-bd18-4e1392174022.mp4
+
+
 ---
 ### Technologies Used
 
