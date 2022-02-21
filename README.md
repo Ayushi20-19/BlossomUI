@@ -16,6 +16,9 @@ works, get your desired style in one click
 
 https://user-images.githubusercontent.com/50084909/154940031-9e0f3864-d3df-4d5b-9ae7-89008996c0fc.mp4
 
+## Dark mode 
+
+https://user-images.githubusercontent.com/50084909/154986013-2282912f-1c92-4ea6-bbae-d2d343a54ab0.mp4
 
 ---
 ### Technologies Used
