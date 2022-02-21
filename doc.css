@@ -58,7 +58,7 @@
   background-color: var(--primary-color);
   color: var(--white-color);
   box-shadow: inset 0.1rem 0.1rem 0.3rem var(--white-color),
-    inset -0.1rem -0.1rem 0.3rem var(--home-secondary-color);
+    inset -0.1rem -0.1rem 0.3rem var(--secondary-color);
 }
 
 ::-webkit-scrollbar {
