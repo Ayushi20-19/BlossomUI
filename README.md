@@ -1,11 +1,19 @@
+<h1 align="center">
+  <br />
+  <a href="https://blossom-ui.netlify.app/"><img src="https://github.com/Ayushi20-19/BlossomUI/blob/dev/assets/logo.png" width="200"></a>
+  <br />
+  Blossom UI
+  <br />
+</h1>
+<hr/>
 ## Blossom-UI
 
-Component Library demo (https://blossom-ui.netlify.app/)
+## Component Library demo (https://blossom-ui.netlify.app/)
 
 The UI Component library that will ease your html css
 works, get your desired style in one click
 
-
+## Fully resonsive designs and flexible components
 https://user-images.githubusercontent.com/50084909/154867486-cacba8c0-9b4e-4818-bd18-4e1392174022.mp4
 
 
