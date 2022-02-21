@@ -12,16 +12,6 @@
 The UI Component library that will ease your html css
 works, get your desired style in one click
 
-## Fully responsive designs and flexible components
-
-https://user-images.githubusercontent.com/50084909/154940031-9e0f3864-d3df-4d5b-9ae7-89008996c0fc.mp4
-
-## Dark mode 
-
-https://user-images.githubusercontent.com/50084909/154993128-e9cc2cf3-99b9-4042-a15a-c5d26d4fa474.mp4
-
-
-
 ---
 ### Technologies Used
 
@@ -46,6 +36,14 @@ Add the below code in the `<head>` of your HTML page
 Blossom UI provides ``16+`` different styles of components and ``150+`` utilities classes.To explore more utility classes visit https://blossom-ui.netlify.app/components/utilities.css and just use the class name to get the respective styles. (note utility classes will display in website soon)
 
 ---
+## Fully responsive designs and flexible components
+
+https://user-images.githubusercontent.com/50084909/154940031-9e0f3864-d3df-4d5b-9ae7-89008996c0fc.mp4
+
+## Dark mode 
+
+https://user-images.githubusercontent.com/50084909/154993128-e9cc2cf3-99b9-4042-a15a-c5d26d4fa474.mp4
+
 
 ## Developer info
 
