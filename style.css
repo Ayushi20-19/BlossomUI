@@ -8,14 +8,29 @@
   --home-bg-color: #99dfff;
   --home-primary-color: #43c4ff;
   --home-secondary-color: #0095da;
+  --box-shadow: #0095da;
   --black-color: #000000;
   --white-color: #ffffff;
+  --bark-bg-color: #000b19;
   --font-heading: "Spectral", serif;
   --font-content: "Barlow", sans-serif;
 }
-
+.dark-mode {
+  background-color: var(--bark-bg-color);
+  color: var(--white-color) !important;
+}
+.black-link {
+  color: var(--white-color);
+}
+.dark-nav {
+  background-color: var(--bark-bg-color) !important;
+  color: var(--white-color) !important;
+  box-shadow: 0.1rem 0.1rem 0.3rem var(--box-shadow) !important;
+}
 body {
   font-family: var(--font-content);
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 h1,
 h2,
