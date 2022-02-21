@@ -12,7 +12,7 @@
 The UI Component library that will ease your html css
 works, get your desired style in one click
 
-## Fully resonsive designs and flexible components
+## Fully responsive designs and flexible components
 
 https://user-images.githubusercontent.com/50084909/154940031-9e0f3864-d3df-4d5b-9ae7-89008996c0fc.mp4
 
