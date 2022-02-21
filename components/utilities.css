@@ -5,7 +5,7 @@ the following are the classes with several variations:
 -border
 -border-radius
 -flex
--visibilty
+-visibility
 -images
 {search these for easy reach (press ctrl+F and copy paste the text)}
 */
@@ -627,4 +627,27 @@ img {
 
 .text-decoration-none {
   text-decoration: none;
+}
+
+/* -----------text-colors---------------- */
+.danger {
+  color: var(--danger);
+}
+.succes {
+  color: var(--success);
+}
+.warning {
+  color: var(--warning);
+}
+.black {
+  color: var(--black-color);
+}
+.white {
+  color: var(--white-color);
+}
+.gray {
+  color: var(--gray-color);
+}
+.info {
+  color: var(--info);
 }
