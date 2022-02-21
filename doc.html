@@ -30,17 +30,24 @@
         </div>
         <nav>
           <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./doc.html">Documentation</a></li>
-            <li><a href="https://github.com/Ayushi20-19/BlossomUI">Github</a></li>
+            <li><a class="link" href="./index.html">Home</a></li>
+            <li><a class="link" href="./doc.html">Documentation</a></li>
+            <li>
+              <a class="link" href="https://github.com/Ayushi20-19/BlossomUI"
+                >Github</a
+              >
+            </li>
+            <li>
+              <i class="fas fa-moon" onclick="modeChange()" id="icon-theme"></i>
+            </li>
           </ul>
         </nav>
         <a class="ham-burger" onclick="docsideBarShow()">
           <i class="fa fa-bars"></i>
         </a>
         <sidebar class="docnavsidebar">
-          <span> <a href="./index.html">Home</a> </span>
-          <span> <a href="./doc.html">Documentation</a> </span>
+          <span> <a class= "link"href="./index.html">Home</a> </span>
+          <span> <a  class= "link"href="./doc.html">Documentation</a> </span>
           <span> <a href="https://github.com/Ayushi20-19/BlossomUI">Github</a> </span>
         </sidebar>
       </div>
@@ -50,25 +57,25 @@
     <aside class="componentSidebar">
         <div class="sidebar-main">
           <h3 class="sidebar-heading" >Installation Guide</h3>
-          <a href="#Installation" class="install-guid">Installation</a>
-          <a href="#Utilities" class="install-guid">Utilities</a>
+          <a href="#Installation" class="install-guid link">Installation</a>
+          <a href="#Utilities" class="install-guid link">Utilities</a>
           <hr />
           <h3 class="sidebar-heading">Components</h3>
-          <a href="#Avatar">Avatar</a>
-          <a href="#Alert">Alert</a>
-          <a href="#Badge">Badge</a>
-          <a href="#Buttons">Buttons</a>
-          <a href="#Cards">Cards</a>
-          <a href="#Images">Image</a>
-          <a href="#Inputs">Input</a>
-          <a href="#Text-Utilities">Text Utilities</a>
-          <a href="#Lists">Lists</a>
-          <a href="#Navbars">Navigation</a>
-          <a href="#Modals">Modal</a>
-          <a href="#Rating">Rating </a>
-          <a href="#Toast">Toast</a>
-          <a href="#Grids">Responsive Grid</a>
-          <a href="#Slider">Slider</a>
+          <a class= "link" href="#Avatar ">Avatar</a>
+          <a class= "link" href="#Alert ">Alert</a>
+          <a class= "link" href="#Badge">Badge</a>
+          <a class= "link" href="#Buttons">Buttons</a>
+          <a class= "link" href="#Cards">Cards</a>
+          <a class= "link" href="#Images">Image</a>
+          <a class= "link" href="#Inputs">Input</a>
+          <a class= "link" href="#Text-Utilities">Text Utilities</a>
+          <a class= "link" href="#Lists">Lists</a>
+          <a class= "link" href="#Navbars">Navigation</a>
+          <a class= "link" href="#Modals">Modal</a>
+          <a class= "link" href="#Rating">Rating </a>
+          <a class= "link" href="#Toast">Toast</a>
+          <a class= "link" href="#Grids">Responsive Grid</a>
+          <a class= "link" href="#Slider">Slider</a>
         </div>
     </aside>
     <div class="main-content">
@@ -105,8 +112,8 @@
           <div class="utilities-content" >
             <h1>Utility Classes</h1>
             <p class="comp-decription">
-              Use these utilities class for making your work easy there are 100+
-              classes
+              Use these utilities class for making your work easy there are 150+
+              classes. The gold of the component libray.
             </p>
             <a href="https://blossom-ui.netlify.app/components/utilities.css" target="_blank"><button class="getstarted-btn margin-top-1" >Check Utility Classes</button></a>
           </div>
@@ -339,7 +346,7 @@
           </p>
           <span class="example">Example of Standard Button</span>
           <p class="comp-example">
-            Copy paste the below code of any Button ans use it.
+            Copy paste the below code of any Button and use it. Also you can change the background color to <strong>bg-success , bg-warning, bg-info</strong> for respective types of button.
           </p>
           
          <div class="comp-display-container">
@@ -364,7 +371,7 @@
           <!---Outline button-->
           <span class="example">Example of Outline Button</span>
           <p class="comp-example">
-          Copy paste the below code of any Button ans use it.
+          Copy paste the below code of any Button and use it.
           </p>
           
          <div class="comp-display-container">
@@ -751,6 +758,7 @@
       <input placeholder="Number Input Field" class='input-field' type="number">
       
       <input placeholder="Password Input Field" class='input-field' type="password">
+      <p class="danger">wrong password</p>
       
       <!----- main component code ends here ----->
     </div>
@@ -1063,7 +1071,7 @@
             </iframe>
             </code>
           </div>
-        
+        <h3>JS code link of navgation with hamburger</h3>
         <!-- js code link-->
           <div class="code_link">
             <code>
@@ -1154,7 +1162,7 @@
             </iframe>
             </code>
           </div>
-
+          <h3>JS code link of alert modal</h3>
           <!-- js code for alert modal-->
           <div class="code_link">
             <code>
@@ -1165,7 +1173,7 @@
             </iframe>
             </code>
           </div>
-
+          <h3>HTML code link of simple alert</h3>
           <div class="code_link">
             <code>
               <iframe
@@ -1175,7 +1183,7 @@
             </iframe>
             </code>
           </div>
-
+          <h3>JS code link of simple alert</h3>
           <!-- js simple alert code -->
           <div class="code_link">
             <code>
@@ -1326,15 +1334,15 @@
           <!-------2 Grid --------->
           <span class="example">Example of Grid</span>
           <p class="comp-example">
-            Copy the html and js code of Grid and use in your project.
+            Copy the html and js code of Grid and use in your project. (Grids dose not have any background color as defaut extrenal classes are used to provide background color)
           </p>
           
           <div class="comp-display-container">
               
               <!----- main component code starts from here ----->
-              <div class="main-2grid">
-                <div class="grid-child"></div>
-                <div class="grid-child"></div>
+              <div class="main-2grid margin-1">
+                <div class="grid-child bg-danger"></div>
+                <div class="grid-child bg-info"></div>
               </div>
               
               <!----- main component code ends here ----->       
@@ -1344,7 +1352,7 @@
           <div class="code_link">
             <code>
               <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=javascript&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-2grid%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-child%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-child%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-2grid%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-child%2520bg-danger%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-child%2520bg-info%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
               style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
               sandbox="allow-scripts allow-same-origin">
             </iframe>
@@ -1353,17 +1361,17 @@
           <!-------3 Grid --------->
           <span class="example">Example of Grid</span>
           <p class="comp-example">
-            Copy the html and js code of Grid and use in your project.
+            Copy the html and js code of Grid and use in your project. (Grids dose not have any background color as defaut extrenal classes are used to provide background color)
           </p>
           
           <div class="comp-display-container">
               
               <!----- main component code starts from here ----->
             
-              <div class="main-3grid">
-                <div class="grid-child"></div>
-                <div class="grid-child"></div>
-                <div class="grid-child"></div>
+              <div class="main-3grid margin-1">
+                <div class="grid-child bg-success"></div>
+                <div class="grid-child bg-info"></div>
+                <div class="grid-child bg-success"></div>
               </div>
 
               <!----- main component code ends here ----->       
@@ -1373,7 +1381,7 @@
           <div class="code_link">
             <code>
               <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=javascript&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-3grid%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-child%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-child%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-child%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              src="https://carbon.now.sh/embed?bg=rgba%2867%2C196%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=165%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-3grid%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-child%2520bg-success%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-child%2520bg-info%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-child%2520bg-success%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
               style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
               sandbox="allow-scripts allow-same-origin">
             </iframe>

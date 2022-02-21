@@ -5,8 +5,12 @@ the following are the classes with several variations:
 -border
 -border-radius
 -flex
--visibilty
+-visibility
 -images
+-text-color
+-background-color
+-width-height
+
 {search these for easy reach (press ctrl+F and copy paste the text)}
 */
 
@@ -485,11 +489,11 @@ the following are the classes with several variations:
 }
 
 .flex-wrap {
+  display: flex;
   flex-wrap: wrap;
 }
 
 .flex-nowrap {
-  display: flex;
   flex-wrap: nowrap;
 }
 
@@ -627,4 +631,94 @@ img {
 
 .text-decoration-none {
   text-decoration: none;
+}
+
+/* --------------------------------text-colors-------------------------- */
+
+.danger {
+  color: var(--danger);
+}
+.success {
+  color: var(--success);
+}
+.warning {
+  color: var(--warning);
+}
+.black {
+  color: var(--black-color);
+}
+.white {
+  color: var(--white-color);
+}
+.gray {
+  color: var(--gray-color);
+}
+.info {
+  color: var(--info);
+}
+.danger {
+  color: var(--danger);
+}
+
+/* ----------------------------background-colors--------------------------- */
+
+.bg-danger {
+  background-color: var(--danger);
+}
+.bg-success {
+  background-color: var(--success);
+}
+.bg-warning {
+  background-color: var(--warning);
+}
+.bg-black {
+  background-color: var(--black-color);
+}
+.bg-white {
+  background-color: var(--white-color);
+}
+.bg-gray {
+  background-color: var(--gray-color);
+}
+.bg-info {
+  background-color: var(--info);
+}
+
+/* ---------------------------------width-height-------------------------------------- */
+
+.width-100 {
+  width: 100%;
+}
+.width-70 {
+  width: 70%;
+}
+.width-60 {
+  width: 60%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-40 {
+  width: 40%;
+}
+.width-30 {
+  width: 30%;
+}
+.height-100 {
+  height: 100%;
+}
+.height-70 {
+  height: 70%;
+}
+.height-60 {
+  height: 60%;
+}
+.height-50 {
+  height: 50%;
+}
+.height-40 {
+  height: 40%;
+}
+.height-30 {
+  height: 30%;
 }

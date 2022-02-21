@@ -6,16 +6,31 @@
 
 :root {
   --home-bg-color: #99dfff;
-  --home-primary-color: #43c4ff;
-  --home-secondary-color: #0095da;
+  --primary-color: #43c4ff;
+  --secondary-color: #0095da;
+  --box-shadow: #0095da;
   --black-color: #000000;
   --white-color: #ffffff;
+  --bark-bg-color: #000b19;
   --font-heading: "Spectral", serif;
   --font-content: "Barlow", sans-serif;
 }
-
+.dark-mode {
+  background-color: var(--bark-bg-color);
+  color: var(--white-color) !important;
+}
+.black-link {
+  color: var(--white-color);
+}
+.dark-nav {
+  background-color: var(--bark-bg-color) !important;
+  color: var(--white-color) !important;
+  box-shadow: 0.1rem 0.1rem 0.3rem var(--box-shadow) !important;
+}
 body {
   font-family: var(--font-content);
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 h1,
 h2,
@@ -49,7 +64,7 @@ h6,
   width: 100%;
   cursor: pointer;
   font-size: 2.5rem;
-  color: var(--home-secondary-color);
+  color: var(--secondary-color);
 }
 .logo-wraper {
   width: 15rem;
@@ -78,7 +93,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--home-secondary-color);
+  color: var(--secondary-color);
 }
 
 .docnavsidebar {
@@ -93,7 +108,7 @@ nav ul li a:hover {
   align-items: center;
   transition: all 1s;
   z-index: 2;
-  background-color: var(--home-primary-color);
+  background-color: var(--primary-color);
 }
 
 .docnavsidebar.active {
@@ -116,7 +131,7 @@ nav ul li a:hover {
 
 .ham-burger {
   font-size: 2rem;
-  color: var(--home-secondary-color);
+  color: var(--secondary-color);
   cursor: pointer;
   margin-left: auto;
   display: none;
@@ -147,20 +162,20 @@ nav ul li a:hover {
 }
 
 .getstarted-btn {
-  background-color: var(--home-primary-color);
+  background-color: var(--primary-color);
   border-radius: 2rem;
   padding: 1rem;
   border: 0px;
   font-size: 1.1rem;
   color: var(--white-color);
   box-shadow: inset 0.1rem 0.1rem 0.3rem var(--white-color),
-    inset -0.1rem -0.1rem 0.3rem var(--home-secondary-color);
+    inset -0.1rem -0.1rem 0.3rem var(--secondary-color);
 }
 
 .getstarted-btn:hover {
-  background-color: var(--home-secondary-color);
+  background-color: var(--secondary-color);
   box-shadow: inset 0.1rem 0.1rem 0.3rem var(--white-color),
-    inset -0.1rem -0.1rem 0.3rem var(--home-primary-color);
+    inset -0.1rem -0.1rem 0.3rem var(--primary-color);
 }
 
 .home-image {

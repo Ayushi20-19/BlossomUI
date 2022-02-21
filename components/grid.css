@@ -1,6 +1,6 @@
 .main-2grid {
   display: grid;
-  background-color: rgb(228, 228, 228);
+  background-color: transparent;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   width: 100%;
@@ -11,8 +11,6 @@
 .grid-child {
   width: 90%;
   height: 10rem;
-  margin: 1rem;
-  background-color: rgb(219, 128, 251);
 }
 .main-3grid {
   display: grid;
