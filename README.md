@@ -1,6 +1,6 @@
 <h1 align="center">
   <br />
-  <a href="https://blossom-ui.netlify.app/"><img src="https://github.com/Ayushi20-19/BlossomUI/blob/dev/assets/logo.png" ></a>
+  <a href="https://blossom-ui.netlify.app/"><img src="https://github.com/Ayushi20-19/BlossomUI/blob/dev/assets/logo.png" width="300" ></a>
   <br />
   Blossom UI
   <br />
